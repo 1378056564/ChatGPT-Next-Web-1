@@ -142,7 +142,7 @@ export function Settings(props: { closeSettings: () => void }) {
             </Popover>
           </SettingItem>
 
-          <SettingItem
+<!--           <SettingItem
             title={Locale.Settings.Update.Version(currentId)}
             subTitle={
               checkingUpdate
@@ -165,7 +165,7 @@ export function Settings(props: { closeSettings: () => void }) {
                 onClick={() => checkUpdate(true)}
               />
             )}
-          </SettingItem>
+          </SettingItem> -->
 
           <SettingItem title={Locale.Settings.SendKey}>
             <select
@@ -383,6 +383,14 @@ export function Settings(props: { closeSettings: () => void }) {
                 );
               }}
             ></input>
+          </SettingItem>
+          
+<!--           这里写广告页面 -->
+          <SettingItem
+            title={Locale.Settings.Advertising.Title}
+            subTitle={Locale.Settings.Advertising.SubTitle}
+          >
+            <p>广告位招租</p>
           </SettingItem>
         </List>
       </div>
