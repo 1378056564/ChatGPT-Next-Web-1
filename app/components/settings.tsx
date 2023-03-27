@@ -79,6 +79,7 @@ export function Settings(props: { closeSettings: () => void }) {
   );
 
   return (
+    <>
       <div className={styles["window-header"]}>
         <div className={styles["window-header-title"]}>
           <div className={styles["window-header-main-title"]}>
@@ -389,7 +390,6 @@ export function Settings(props: { closeSettings: () => void }) {
             title={Locale.Settings.Advertising.Title}
             subTitle={Locale.Settings.Advertising.SubTitle}
           >
-            <p>广告位招租</p>
           </SettingItem>
         </List>
       </div>
