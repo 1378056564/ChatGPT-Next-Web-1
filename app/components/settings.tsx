@@ -386,11 +386,11 @@ export function Settings(props: { closeSettings: () => void }) {
           </SettingItem>
           
 <!--           这里写广告页面 -->
-          <SettingItem
+<!--           <SettingItem
             title={Locale.Settings.Advertising.Title}
             subTitle={Locale.Settings.Advertising.SubTitle}
           >
-          </SettingItem>
+          </SettingItem> -->
         </List>
       </div>
     </>
