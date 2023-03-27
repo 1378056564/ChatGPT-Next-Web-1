@@ -92,6 +92,11 @@ const cn = {
       Title: "话题新鲜度 (presence_penalty)",
       SubTitle: "值越大，越有可能扩展到新话题",
     },
+    Advertising:
+    {
+      Tile:"广告",
+      SubTitle:"欢迎联系客服投放广告",
+  },
   },
   Store: {
     DefaultTopic: "新的聊天",
