@@ -79,7 +79,7 @@ export function Settings(props: { closeSettings: () => void }) {
   );
 
   return (
-    <>
+    <>,
       <div className={styles["window-header"]}>
         <div className={styles["window-header-title"]}>
           <div className={styles["window-header-main-title"]}>
