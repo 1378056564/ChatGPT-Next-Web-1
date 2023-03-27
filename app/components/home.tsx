@@ -511,9 +511,9 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>免费AI聊天室</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            您的网上聊天助手
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
